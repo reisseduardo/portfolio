@@ -1,0 +1,52 @@
+body {
+    background-color: #00ADB5;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+header {
+    background-color: #222831;
+    color: #EEEEEE;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5%;
+}
+
+main {
+    min-height: 100%;
+
+}
+
+main ul {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+main img {
+    width: 50%;
+    margin: 5%;
+
+}
+
+main ul li a figcaption {
+    color: #000000;
+    text-decoration: underline;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin-top: auto;
+    background-color: #222831;
+    text-align: center;
+    padding: 2%;
+}
+
+footer a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
